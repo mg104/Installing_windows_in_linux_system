@@ -15,6 +15,12 @@ Steps are as follows:
    - sudo apt-get update
    - sudo apt-get install unetbootin
 
-4. Open Unetbootin and click on the ISO file and proceed as per instructions
+4. Find out the mount point of the USB by running "df -h" in terminal. It should show something like following (if the name of the USB kept by you in above step, is "Win10USB"):
+   - /dev/sdc1        15G   65M   15G   1% /media/madhur/Win10USB
 
-5. Boot into UEFI (by pressing F11 in MSI BIOS 5, when the system restarts) and install windows.
+5. Run the following commands in terminal:
+   - sudo unetbootin installtype=USB targetdrive=/dev/sdc1
+
+6. Unetbootin GUI will open automatically and then proceed with clicking on "Disk Image" option, and choose the ISO file location.
+
+7. Proceed as usual.
