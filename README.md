@@ -8,7 +8,7 @@ Steps are as follows:
    - Open "disks" app in Ubuntu.
    - Format the USB
    - Choose to overwrite the USB
-   - Click on the "+" (Partition) sign and choose the name of the USB, say "Win10USB". Also choose "NTFS" formatting option and not FAT32 option while formatting, because FAT32 limits the size of USB available to 4GB to write files on it and it could lead to files being truncated and errors while installing windows (specifically: install.wim file which is 4.6 GB in size and therefore might get truncated.)
+   - Click on the "+" (Partition) sign and choose the name of the USB, say "Win10USB". Also choose "NTFS" option and not FAT32 option while formatting, because FAT32 limits the size of USB available to 4GB to write files on it and it could lead to files being truncated and errors while installing windows (specifically: install.wim file which is 4.6 GB in size and therefore might get truncated.)
 
 3. Install Unetbootin on ubuntu by running the following commands:
    - sudo add-apt-repository ppa:gezakovacs/ppa
