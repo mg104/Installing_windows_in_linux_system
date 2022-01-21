@@ -16,6 +16,6 @@ Steps are as follows:
    - sudo apt-get update
    - sudo apt-get install unetbootin
 
-4.) Open Unetbootin and click on the ISO file and proceed as per instructions
+4. Open Unetbootin and click on the ISO file and proceed as per instructions
 
-5.) Boot into UEFI (by pressing F11 in MSI BIOS 5, when the system restarts) and install windows.
+5. Boot into UEFI (by pressing F11 in MSI BIOS 5, when the system restarts) and install windows.
